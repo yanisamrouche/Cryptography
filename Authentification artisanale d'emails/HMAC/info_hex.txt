@@ -1,0 +1,44 @@
+0000000    R   e   c   e   i   v   e   d   :       f   r   o   m       3
+0000020    1   .   1   2   1   .   1   1   8   .   4   5       (   E   H
+0000040    L   O       s   e   r   v   e   u   r   .   f   r   )  \r  \n
+0000060            b   y       m   t   a   1   0   0   7   .   m   a   i
+0000100    l   .   u   k   l   .   y   a   h   o   o   .   c   o   m    
+0000120    w   i   t   h       S   M   T   P   ;       F   r   i   ,    
+0000140    2   1       S   e   p       2   0   1   9       2   1   :   3
+0000160    1   :   1   6       +   0   0   0   0  \r  \n   R   e   c   e
+0000200    i   v   e   d   :       b   y       s   e   r   v   e   u   r
+0000220    .   f   r       (   P   o   s   t   f   i   x   ,       f   r
+0000240    o   m       u   s   e   r   i   d       1   0   6   )  \r  \n
+0000260            i   d       3   D   F   2   F   1   5   A   0   C   D
+0000300    ;       F   r   i   ,       2   1       S   e   p       2   0
+0000320    1   9       2   3   :   3   1   :   1   6       +   0   2   0
+0000340    0       (   C   E   S   T   )  \r  \n   F   r   o   m   :    
+0000360    "   T   h   o   m   a   s       M   o   o   r   e   "       <
+0000400    p   r   e   s   i   d   e   n   t   @   s   e   r   v   e   u
+0000420    r   .   f   r   >  \r  \n   T   o   :       y   v   o   n   .
+0000440    p   i   g   e   o   n   @   y   a   h   o   o   .   f   r  \r
+0000460   \n   S   u   b   j   e   c   t   :       T   r   a   n   s   f
+0000500    e   r   t       d   '   a   r   g   e   n   t       u   r   g
+0000520    e   n   t  \r  \n   D   a   t   e   :       F   r   i   ,    
+0000540    2   1       S   e   p       2   0   1   9       2   3   :   3
+0000560    1   :   1   6       +   0   2   0   0  \r  \n   M   I   M   E
+0000600    -   V   e   r   s   i   o   n   :       1   .   0  \r  \n   C
+0000620    o   n   t   e   n   t   -   T   r   a   n   s   f   e   r   -
+0000640    E   n   c   o   d   i   n   g   :       8   b   i   t  \r  \n
+0000660    C   o   n   t   e   n   t   -   T   y   p   e   :       t   e
+0000700    x   t   /   p   l   a   i   n   ;       c   h   a   r   s   e
+0000720    t   =   i   s   o   -   8   8   5   9   -   1  \r  \n   X   -
+0000740    M   a   i   l   e   r   :       M   o   z   i   l   l   a    
+0000760    T   h   u   n   d   e   r   b   i   r   d  \r  \n   M   e   s
+0001000    s   a   g   e   -   I   d   :       <   2   0   1   9   0   9
+0001020    2   1   2   1   2   1   1   6   .   3   D   F   2   F   1   6
+0001040    A   0   C   D   @   s   e   r   v   e   u   r   .   f   r   >
+0001060   \r  \n  \r  \n   B   o   n   j   o   u   r       Y   v   o   n
+0001100    ,  \r  \n   T   r   a   n   s   f   e   r   e   z       1   0
+0001120    0       0   0   0       e   u   r   o   s       s   u   r    
+0001140    l   e       c   o   m   p   t   e       I   B   A   N  \r  \n
+0001160    F   R   7   6   3   0   0   5   6   0   0   9   2   7   1   2
+0001200    3   4   5   6   7   8   9   0   1   8   2       d   e   s    
+0001220    a   u   j   o   u   r   d   '   h   u   i   .  \r  \n   T   h
+0001240    o   m   a   s  \r  \n                                        
+0001246
