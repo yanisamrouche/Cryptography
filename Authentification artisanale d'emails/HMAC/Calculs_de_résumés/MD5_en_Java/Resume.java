@@ -5,10 +5,10 @@ import java.security.*;
 
 public class Resume
 {
-    public static void main(String[] args)
-    {
+    
+    public static byte[] md5(String file){
         try {
-            File fichier = new File("butokuden.jpg");
+            File fichier = new File(file);
             FileInputStream fis = new FileInputStream(fichier);
 
             MessageDigest hacheur = MessageDigest.getInstance("MD5");
@@ -26,7 +26,13 @@ public class Resume
             for(byte k: resumeMD5)
                 System.out.printf("%02x", k);
             System.out.println();
+            return resumeMD5;
         } catch (Exception e) { e.printStackTrace(); }
+        return null;
+    }
+    public static void main(String[] args)
+    {
+        md5("/home/yanis/Projects/Cryptographie/Authentification artisanale d'emails/HMAC/corps.txt");
     }
 }
 
