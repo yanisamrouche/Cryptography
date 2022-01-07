@@ -66,3 +66,7 @@ h = MD5(c || S) = be7dd41f41a6c06a32c046a9f3de396a
 
 Exo2:
 3) le fichier obtenu lorsque l'on fourni en entrée email1.txt est identique au fichier email1-auth.txt obtenu lors du 1er exo.
+
+Exo3:
+2) lors de la modification de la valeur du champ X-AUTH (ou du corp) du fichier email1-auth.txt 
+le programme check renvoie bien une alerte.
