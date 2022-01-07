@@ -28,7 +28,7 @@ public class Cert {
 
         MessageDigest hacheur = MessageDigest.getInstance("MD5");
         String b = body+secret;
-        //System.out.println(b);        
+        System.out.println(b);        
         byte[] buff = b.getBytes();
         hacheur.update(buff);
         byte[] r = hacheur.digest();  
@@ -67,7 +67,10 @@ public class Cert {
         List<String> lines = parseFile(filename);
         String header = extractHeader(lines);
         String body = extractBody(lines);
+        System.out.println(body);
         byte[] r = md5(body, "c5dcb78732e1f3966647655229729843");
+        for(byte k: r)
+            System.out.printf("%02x", k);
         StringBuilder xAuth = new StringBuilder("X-AUTH: ");
         
         for(byte k : r){
@@ -95,7 +98,9 @@ public class Cert {
 
     public static void main(String[] args) throws Exception{
         //parseFile(args[0]);
-        insertField(args[0]);
+        //insertField(args[0]);
+
+
              
     }
 
