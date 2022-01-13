@@ -6,7 +6,7 @@ import java.security.*;
 public class Resume
 {
     
-    public static byte[] md5(String file){
+    public static byte[] md5(String file) throws IOException{
         try {
             File fichier = new File(file);
             FileInputStream fis = new FileInputStream(fichier);
@@ -22,7 +22,7 @@ public class Resume
             fis.close();
 
             byte[] resumeMD5 = hacheur.digest();
-            System.out.print("Le résumé MD5 du fichier \"butokuden.jpg\" vaut: 0x");
+            System.out.print("Le résumé MD5 du fichier"+file+" vaut: 0x");
             for(byte k: resumeMD5)
                 System.out.printf("%02x", k);
             System.out.println();
@@ -30,7 +30,7 @@ public class Resume
         } catch (Exception e) { e.printStackTrace(); }
         return null;
     }
-    public static void main(String[] args)
+    public static void main(String[] args)throws IOException
     {
         md5("/home/yanis/Projects/Cryptographie/Authentification artisanale d'emails/HMAC/corps_avec_secret.txt");
     }

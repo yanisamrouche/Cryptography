@@ -61,7 +61,9 @@ Thomas" | md5sum
 MD5(c) = 45b7c9ccca6b62fcbe10f030eea9c663
 
 2) le résumé MD5 du fichier : 
-$ md5sum S_corps_email1.txt
+$ md5sum corps.txt
+70aaccbc45dd51664b7c6f014277e9c8
+$  md5sum S_corps_email1.txt
 h = MD5(c || S) = be7dd41f41a6c06a32c046a9f3de396a
 
 Exo2:

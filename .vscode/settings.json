@@ -1,0 +1,6 @@
+{
+    "java.project.sourcePaths": [
+        "Fabrique de clefs symétriques longues/RC4/Java/src",
+        "Authentification artisanale d'emails/HMAC/Calculs_de_résumés/MD5_en_Java"
+    ]
+}
