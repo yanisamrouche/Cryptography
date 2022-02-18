@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Fabrique de clefs symétriques longues/AES/AES.iml" filepath="$PROJECT_DIR$/Fabrique de clefs symétriques longues/AES/AES.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Authentification artisanale d'emails/Authentification artisanale d'emails.iml" filepath="$PROJECT_DIR$/Authentification artisanale d'emails/Authentification artisanale d'emails.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Cryptographie.iml" filepath="$PROJECT_DIR$/.idea/Cryptographie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Devoir01_chiffrement_par_mdp/Devoir01_chiffrement_par_mdp.iml" filepath="$PROJECT_DIR$/Devoir01_chiffrement_par_mdp/Devoir01_chiffrement_par_mdp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fabrique de clefs symétriques longues/RC4/RC4.iml" filepath="$PROJECT_DIR$/Fabrique de clefs symétriques longues/RC4/RC4.iml" />
+    </modules>
+  </component>
+</project>

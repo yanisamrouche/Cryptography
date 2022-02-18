@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 import java.util.Arrays;
 
 public class MonRC4 {
-    private static int LG_FLUX =467796;
+    private static int LG_FLUX = 467796;
     //static byte[] clef = {(byte) 1, (byte) 2, (byte) 3, (byte) 4, (byte) 5};
     static byte[] clef = keyToASCII("KYOTO");
 
@@ -40,11 +40,12 @@ public class MonRC4 {
         }
         */
 
-        byteToFile("conf.jpg", newF);
-        byte[] resume = Resume.md5("conf.jpg");
+        byteToFile("confidentiel.jpg", newF);
+
+        byte[] resume = Resume.md5("confidentiel.jpg");
 
         // chiffrement du fichier conf.jpg 
-        byte[] conf = parseFile("conf.jpg");
+        byte[] conf = parseFile("confidentiel.jpg");
         byte[] newConf = new byte[conf.length];
         for(int i=0; i < conf.length; i++){
             int xor = conf[i] ^ clef_longue[i];
@@ -67,7 +68,7 @@ public class MonRC4 {
 
     private static void initialisation(){
         int lg = clef.length;
-        System.out.println("clef courte utilisée");
+        System.out.println("\nclef courte utilisée");
         for(int k=0; k<lg; k++){
             System.out.print(String.format("0x%02X",clef[k]));
         }
